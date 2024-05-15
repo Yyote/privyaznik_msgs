@@ -5,6 +5,6 @@ float32 abs_altitude
 ---
 float32 easting
 float32 northing
-float32 zone_number
+int32 zone_number
 string zone_letter
 bool northern
