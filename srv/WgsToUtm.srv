@@ -1,0 +1,10 @@
+float32 latitude
+float32 longitude
+float32 rel_altitude
+float32 abs_altitude
+---
+float32 easting
+float32 northing
+float32 zone_number
+string zone_letter
+bool northern
