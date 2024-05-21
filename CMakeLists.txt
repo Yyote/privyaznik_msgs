@@ -15,6 +15,7 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Command.msg"
+  "srv/Command.srv"
   "srv/UtmToWgs.srv"
   "srv/WgsToUtm.srv"
   DEPENDENCIES # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
